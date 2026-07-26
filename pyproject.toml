@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "im-a-sliding-window"
+version = "0.1.0"
+description = "Python side of the sliding-window fun toy"
+requires-python = ">=3.12"
+
+[dependency-groups]
+test = ["pytest"]
+
+[tool.hatch.build.targets.wheel]
+only-include = ["src/main/python"]
+sources = ["src/main/python"]
+
+[tool.pytest.ini_options]
+testpaths = ["src/test/python"]
