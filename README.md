@@ -12,7 +12,7 @@ My interviewer thought running average sum memoise by accumulator is an optimiza
 
 Hm...
 
-Read my article here: https://mimis-gildi.github.io/riddle-me-this//2026/07/26/algos-vs-life.html
+Read my article here: https://mimis-gildi.github.io/riddle-me-this/adventures/2026/07/26/algos-vs-life.html
 
 And the test is here: `me.rdd13r.funtoys.LinearSliderTest.massiveArrayPerformanceComparison`
 
